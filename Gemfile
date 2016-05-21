@@ -28,6 +28,11 @@ gem 'ckeditor', '~> 4.0.6'
 # Add Paperclip
 gem 'paperclip'
 
+# Add CanCan
+gem 'cancan'
+# Add Devise
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
