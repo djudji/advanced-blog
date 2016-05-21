@@ -31,5 +31,10 @@ module AdvancedBlog
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    
+    # Do not generate tests
+    config.generators do |g|
+      g.test_framework nil, :fixture => false
+    end
   end
 end
