@@ -1,2 +1,2 @@
-== Advanced Blog
+=Advanced Blog
 
