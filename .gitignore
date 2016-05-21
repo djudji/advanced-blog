@@ -16,6 +16,7 @@
 # My stuff
 .DS_Store
 /config/database.yml
+/config/secrets.yml
 
 # Standard .gitignore file for Rails from github.com
 *.rbc
